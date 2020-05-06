@@ -1,0 +1,39 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>"NutrilifeGreen - Quero Receber Dicas"</title>
+    <style type="text/css">
+       body
+       {
+       	background-repeat: no-repeat;
+    	background-color: #3ba446;
+        font-family: Cooper;
+        color: white;
+       }
+     </style>
+    <body align="center">
+    <img src="{% static 'img/logonutrilifegreen.jpg' %}" width="180px" height="200px" align="center">
+
+    <h1 align="center">Cadastro para recebimento de Dicas do NutrilifeGreen</h1>
+    </linkstyle>
+   <pre><form action="" method="post">
+   <table align="center">
+     <tr>
+       <br align="right">Nome :&nbsp;&nbsp;<input type="text" name="nome" autofocus  size="30"></br>
+     </tr>
+     <tr>
+        <br>Telefone :<input type="tel" name="fone" size="2" maxlength="2"/>&nbsp;<input type="tel" name="fone2"  maxlength="9"/></br>
+     </tr>
+     <tr>
+       <br>E-mail :<input type="email" name="email" size="30"></br>
+     </tr>
+     <tr>
+      <br><button onclick="Enviar();"> Enviar </button></br>
+     </tr>
+   </table>
+  </form></pre>
+</body>
+</head>
+</html>

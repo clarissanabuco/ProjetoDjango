@@ -17,3 +17,6 @@ def receitas(request):
 
 def contact(request):
     return render(request, 'contact.html')
+
+def receberdicas(request):
+    return render(request, 'receberdicas.html')
