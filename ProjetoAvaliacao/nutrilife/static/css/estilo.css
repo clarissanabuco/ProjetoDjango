@@ -1,0 +1,35 @@
+
+body
+{
+    align: center;
+    background-repeat: no-repeat;
+	background-color: #3ba446;
+    font-family: calibri;
+}
+
+h1
+{
+   font-size:30px;
+   color:white;
+}
+
+p
+{
+  font-size:18px;
+  color:lightgreen;
+}
+
+.btn
+{
+  font-family: verdana;
+  font-size:14px;
+  font-weight:700;
+  padding:10px;
+  border:1;
+  background:green;
+  color:lightgreen;
+  box-shadow:0 5px 0 #006000;
+}
+
+
+

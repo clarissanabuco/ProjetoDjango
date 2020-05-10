@@ -1,10 +1,9 @@
 from django.shortcuts import render
 
-
 # Create your views here.
 
 def home(request):
-    return render(request, 'home.html')
+   return render(request, 'home.html')
 
 def quemsomos(request):
     return render(request, 'quemsomos.html')
@@ -18,5 +17,5 @@ def receitas(request):
 def contact(request):
     return render(request, 'contact.html')
 
-def receberdicas(request):
-    return render(request, 'receberdicas.html')
+
+

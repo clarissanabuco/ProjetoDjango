@@ -1,86 +1,42 @@
-{%load static %}
+{%load static%}
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <title>NutrilifeGreen - Notícias e Dicas de Saúde</title>
-    <style type="text/css">
-       body
-       {
-       	background-repeat: no-repeat;
-    	background-color: #3ba446;
-        font-family: Cooper;
-        color: white;
-       }
-     </style>
+    <div align="center">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/estilo.css' %}">
     <body align="center">
-    <img src="{% static 'img/logonutrilifegreen.jpg' %}" width="180px" height="200px" align="center">
+        <img src="{% static 'img/logonutrilifegreen.jpg' %}" width="180px" height="200px" align="center">
+        <h1 align="center">Esteja sempre bem informado com nossas dicas</h1>
 
-    <h1 align="center">Esteja sempre bem informado com essas dicas</h1>
+        <table align="center">
+          <tr>
+             <td><img src="{% static 'img/noticiasexec.png' %}" width="100px"></td>
+             <td><a href="https://www.youtube.com/watch?v=-1L6uTkC0Q0">Benefícios dos Exercícios Físicos</a></td>
+          </tr>
+          <tr>
+             <td><img src="{% static 'img/qualidadedevida.png' %}" width="100px"/></td>
+             <td><a href="https://www.saudebemestar.pt/pt/blog-saude/qualidade-de-vida/">O Que é Qualidade de vida?</a></td>
+          </tr>
+          <tr>
+             <td><img src="{% static 'img/alimentacaosaudavel.png' %}" width="100px"/></td>
+             <td><a href="https://www.conceitozen.com.br/importancia-da-alimentacao-saudavel-para-qualidade-de-vida.html">Importância da Alimentação Saudável</a></td>
+          <tr>
+             <td></td>
+            <td></td>
+          </tr>
+          <tr>
+             <td></td>
+             <td><div align="center"><button class="btn" onclick="recebernoticias();"><b>Quero receber por e-mail dicas do NutrilifeGreen</b></div></td>
+             <script type="text/javascript" src="{% static 'js/recebernoticias.js'%}"></script>
+          </tr>
+      </table>
     </linkstyle>
-
-    <table align="center">
-      <tr>
-         <td><img src="{% static 'img/noticiasexec.png' %}" width="100px"></td>
-         <td><a href="https://www.youtube.com/watch?v=-1L6uTkC0Q0">Benefícios dos Exercícios Físicos</a></td>
-      </tr>
-      <tr>
-         <td><img src="{% static 'img/qualidadedevida.png' %}" width="100px"/></td>
-         <td><a href="https://www.saudebemestar.pt/pt/blog-saude/qualidade-de-vida/">O Que é Qualidade de vida?</a></td>
-      </tr>
-      <tr>
-         <td><img src="{% static 'img/alimentacaosaudavel.png' %}" width="100px"/></td>
-         <td><a href="https://www.conceitozen.com.br/importancia-da-alimentacao-saudavel-para-qualidade-de-vida.html">Importância da Alimentação Saudável</a></td>
-      <tr>
-         <td></td>
-         <td></td>
-         <td></td>
-        <td><div align="right" ><img src="{% static 'img/receberemail.png' %}" width="70px"/><a href="enviareceita()"><b>Quero receber por e-mail dicas do NutrilifeGreen</b></a></div></td>
-      </tr>
-    </table>
-  </body>
- </head>
+    </body>
+    </div>
+</head>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
