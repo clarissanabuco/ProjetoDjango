@@ -1,0 +1,31 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>NutrilifeGreen - Listagem de Produtos</title>
+    <div align="center">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/estilo.css' %}">
+    <body align="center">
+        <img src="{% static 'img/logonutrilifegreen.jpg' %}" width="180px" height="200px" align="center">
+        <h1 align="center">Nossos Produtos</h1>
+
+        <table align="center">
+            <tr>
+                <td width="300"><p>Nome</p></td>
+                <td width="50"><p>Preço</p></td>
+                <td width="50"><p>Quantidade</p></td>
+            </tr>
+            {% for prod in produtos %}
+            <tr>
+                <td align="left"><p>{{prod.name}}</p></td>
+                <td align="center"><p>{{prod.price}}</p></td>
+                <td align="center"><p>{{prod.stock}}</p></td>
+            </tr>
+           {%endfor%}
+      </table>
+    </linkstyle>
+    </body>
+    </div>
+</head>
+</html>
